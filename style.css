@@ -1,0 +1,349 @@
+/*
+Theme Name:     Twenty Thirteen Child
+Theme URI:      http://suzettefranck.com/
+Description:    Child theme for the Twenty Thirteen theme 
+Author:         Suzette Franck
+Author URI:     http://suzettefranck.com
+Template:       twentythirteen
+Version:        0.1.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+.format-standard {
+	background: #edc5f4;
+}
+
+.entry-title a {
+  color:#8827F0;
+}
+
+.entry-title a:hover {
+  color:#5818B2;
+}
+
+.entry-meta a {
+  color:#5818B2;
+}
+
+.entry-meta a:hover{
+  color:#8827F0;
+}
+
+a {
+  color:#8827F0;
+}
+
+a:hover {
+  color:#5818B2;
+}
+
+.navbar {
+  background-color:#cff4c5;
+}
+
+.paging-navigation {
+  background-color:#cff4c5;
+}
+
+.entry-header, .entry-content, .entry-summary, .entry-meta {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.format-standard {
+	background: #edc5f4;
+}
+
+.entry-title a {
+  color:#8827F0;
+}
+
+.entry-title a:hover {
+  color:#5818B2;
+}
+
+.entry-meta a {
+  color:#5818B2;
+}
+
+.entry-meta a:hover{
+  color:#8827F0;
+}
+
+a {
+  color:#8827F0;
+}
+
+a:hover {
+  color:#5818B2!important;
+}
+
+.navbar {
+  background-color:#cff4c5;
+}
+
+.paging-navigation {
+  background-color:#FCABD6;
+}
+
+#main {	background-color: #EDC5F4;}
+
+.site-footer {
+    background-color: #CFF4C5;
+    color: #7D7B6D;
+}
+
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover {
+	background-color: #CD35EF;
+}
+
+.nav-menu ul li > a,
+.nav-menu ul li a {
+	color: #87E85A!important;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	background-color: #540DAF;
+	color: #fff!important;
+}
+
+.nav-menu .sub-menu, .nav-menu .children {
+    background-color: #540DAF;
+}
+
+
+.post-navigation {
+    background-color: #FCABD6;
+    color: indigo;
+}
+
+pre {
+	background-color: #000;
+	color: #00FF00;
+	font-size: 1.5em;
+	font-family: courier;
+}
+
+.page {
+	margin: 0 auto;
+
+}
+
+.entry-content h3 {
+	background-color: lime;
+	padding: 10px;
+	text-align: center;
+	font-size: 3em;
+}
+
+.archive-header {
+    background-color: #FFFFDB;
+}
+
+
+#respond {
+    background-color: #FBFFD8;
+}
+
+.entry-meta span.tags-links {
+    color: #5818B2;
+}
+
+/* Social Widget */
+
+#social-widget-3 {
+    position: absolute;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#social-widget-3 h3.widget-title {
+    display: none;
+}
+
+/* Bottom Menu Styling */
+
+ul#menu-bottom-links {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul#menu-bottom-links li {
+  float: left;
+  width: 25%;
+  margin: 0;
+  background-color: deeppink;
+}
+
+ul#menu-bottom-links li a {
+  color: #fff!important;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+ul#menu-bottom-links li a:hover {
+  color: lime!important;
+}
+
+/* Post Formats */
+
+.format-video {
+    background-color: #CD35EF;
+}
+
+.format-image {
+    background: #5818b2; /* Old browsers */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#5818b2), color-stop(0.5, #e072f2), to(#86eb57));
+    background: -webkit-linear-gradient(#5818b2 0%, #e072f2 50%, #86eb57 100%);
+    background: -moz-linear-gradient(#5818b2 0%, #e072f2 50%, #86eb57 100%);
+    background: -o-linear-gradient(#5818b2 0%, #e072f2 50%, #86eb57 100%);
+    background: linear-gradient(#5818b2 0%, #e072f2 50%, #86eb57 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+}
+
+.format-gallery {
+    background: url('images/grey_wash_wall.png') repeat;
+}
+
+.format-gallery .entry-title a {
+  color: #CD35EF;
+}
+
+.format-gallery .entry-meta a, .format-gallery .entry-content a, .format-gallery span.tags-links {
+  color: #CD35EF;
+}
+
+.format-link {
+  background: #E072F2;
+}
+
+
+
+.format-link .entry-title {
+  font: 600 30px "Bitter",Helvetica,sans-serif;
+}
+
+.format-link .entry-title a {
+    color: #FFF;
+    
+}
+
+
+.format-audio {
+  background: #81D740;
+}
+
+.format-audio .entry-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: indigo;
+}
+
+.format-chat {
+  background: deeppink;
+}
+
+.format-status {
+  background: #A332B8;
+}
+
+.format-quote {
+  background: #914EF7;
+}
+
+.format-quote .entry-content a, .format-quote .entry-meta a {
+    color: indigo;
+}
+
+.format-aside {
+  background: #CB9EE2;
+}
+
+.navigation a {
+    color: #CD35EF;
+}
+
+
+.site-footer .sidebar-container {
+    background-color: indigo;
+}
+
+/* buttons */
+
+button, input[type="submit"], input[type="button"], input[type="reset"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, indigo 0%, deeppink 100%) repeat scroll 0 0 transparent;
+    border-color: -moz-use-text-color -moz-use-text-color deeppink;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: none none solid;
+    border-width: medium medium 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 11px 24px 10px;
+    text-decoration: none;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus {
+  background: deeppink; /* Old browsers */
+  background: -webkit-linear-gradient(top, deeppink 0%, indigo 100%); /* Chrome 10+, Safari 5.1+ */
+  background:   linear-gradient(to bottom, deeppink 0%, indigo 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='deeppink', endColorstr='indigo', GradientType=0); /* IE6-9 */
+  outline: none;
+}
+
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active {
+  background: deepink; /* Old browsers */
+  background: -webkit-linear-gradient(top, deeppink 0%, indigo 100%); /* Chrome 10+, Safari 5.1+ */
+  background:   linear-gradient(to bottom, deeppink 0%, indigo 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='deeppink', endColorstr='indigo', GradientType=0); /* IE6-9 */
+  border: none;
+  border-top: 3px solid #indigo;
+  padding: 10px 24px 11px;
+}
+
+.site-footer a {
+    color: deeppink;
+}
+
+.entry-content a, .comment-content a {
+    color: indigo;
+}
+
+
+.paging-navigation .meta-nav {
+  background-color: deeppink;
+}
+
+.paging-navigation a:hover .meta-nav {
+  background-color: indigo;
+}
+
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+    color: indigo;
+    font-weight: bold;
+}
